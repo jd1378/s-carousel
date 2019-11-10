@@ -10,6 +10,10 @@
     "lint": "vue-cli-service lint",
     "build-bundle": "vue-cli-service build --target lib --name s-carousel ./src/components/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jd1378/s-carousel.git"
+  },
   "dependencies": {
     "core-js": "^3.3.2",
     "vue": "^2.6.10",

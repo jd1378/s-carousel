@@ -1,13 +1,14 @@
 {
   "name": "vue-s-carousel",
   "version": "0.1.0",
-  "private": true,
+  "main": "./dist/s-carousel.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build-bundle": "vue-cli-service build --target lib --name s-carousel ./src/components/index.js"
   },
   "dependencies": {
     "core-js": "^3.3.2",
@@ -33,5 +34,12 @@
     "sass": "^1.19.0",
     "sass-loader": "^8.0.0",
     "vue-template-compiler": "^2.6.10"
-  }
+  },
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ]
 }

@@ -6,7 +6,7 @@
 
 <script>
 // @ is an alias to /src
-import sCarousel from "@/components/slider.vue";
+//import sCarousel from "@/components/slider.vue";
 
 export default {
   name: "home",

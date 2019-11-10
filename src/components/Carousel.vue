@@ -328,7 +328,7 @@ export default {
       this.midPoint = boundingRect.left + boundingRect.width / 2;
     },
 
-    resizeHandler(event) {
+    resizeHandler() {
       this.recalculateMidPoint();
       this.rearrangeChildren(this.selectedIndex);
     },

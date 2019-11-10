@@ -39,9 +39,9 @@
   },
   "files": [
     "dist/*",
-    "src/*",
-    "public/*",
-    "*.json",
-    "*.js"
+    "src/components/*",
+    "src/mixins/*",
+    "src/utils/*",
+    "public/*"
   ]
 }
